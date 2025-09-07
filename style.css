@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background: url(bitcoin.jpg);
+    background-size: cover;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav {
+    opacity: 0.5;
+    display: flex;
+    top: 0;
+    font-family: poppins;
+    font-weight: 600;
+    background-color: rgb(243, 239, 232);
+}
+
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+}
+
+nav li a:hover {
+    color: gray;
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.container {
+    opacity: 0.8;
+    border-radius: 25px;
+    background-color: rgb(61, 107, 107);
+    font-family: "poppins", sans-serif;
+    max-width: 60vw;
+    margin: auto;
+    align-content: center;
+
+}
+
+.container h1 {
+    padding: 20px;
+}
+
+.container form input [type='number'],
+select,
+input,
+label {
+
+    margin: 20px 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#label1 {
+    margin-bottom: 0px;
+}
+
+.btn {
+    width: 144px;
+    padding: 10px 15px;
+    font-size: 25px;
+    background-color: rgb(110, 110, 230);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.output table {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.output {
+    opacity: 0.8;
+    border-radius: 25px;
+    background-color: azure;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+    align-content: center;
+    display: none;
+
+}
+
+footer {
+    bottom: 0px;
+
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+
+@media (max-width:600px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+
+    nav {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin: 3px 3px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 95vw;
+    }
+
+    .container form input [type='number'],
+    select,
+    lablel,
+    input {
+        width: 80vw;
+    }
+}
